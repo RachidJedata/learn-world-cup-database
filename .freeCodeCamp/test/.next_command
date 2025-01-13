@@ -506,3 +506,12 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 git checkout -b panch-1
 git checkout -b patch-1
 git add .
+git commit -m "Your commit message here"
+git push origin patch-1
+git remote -v
+git remote set-url origin https://github.com/RachidJedata/learn-world-cup-database.git
+git remote -v
+git push origin patch-1
+git branch -d panch-1
+clear
+git add .
